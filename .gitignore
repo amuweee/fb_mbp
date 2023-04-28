@@ -1,0 +1,32 @@
+# ignore everything
+/**
+
+# Git aliases, identification info
+!/.gitconfig
+!/.gitignore
+
+# system configs on /home
+!/.zshrc
+
+# files inside .config
+!/.config
+!/.config/alacritty
+!/.config/alacritty/*.yml
+
+!/.config/uhk
+!/.config/uhk/UserConfiguration.json
+
+!/.config/karabiner
+!/.config/karabiner/karabiner.json
+
+!/.config/starship.toml
+
+!/.config/nvim
+!/.config/nvim/*
+!/.config/nvim/lua
+!/.config/nvim/lua/user
+!/.config/nvim/lua/user/*
+!/.config/nvim/lua/user/lsp
+!/.config/nvim/lua/user/lsp/*
+!/.config/nvim/lua/user/lsp/settings
+!/.config/nvim/lua/user/lsp/settings/*
